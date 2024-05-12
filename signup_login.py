@@ -1,5 +1,6 @@
 """This module allows a user to create an account and to login"""
 class IncorrectPasswordLength(Exception):
+    """raises exception if password length doesn't meet the required length"""
     pass
 
 users = {
